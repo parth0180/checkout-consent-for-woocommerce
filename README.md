@@ -178,6 +178,26 @@ Yes. The admin dashboard includes CSV and JSON export. You can also import from 
 
 ---
 
+## 👨‍💻 About the Author
+
+<table>
+  <tr>
+    <td width="72" align="center">
+      <img src="https://github.com/parth0180.png" width="64" height="64" style="border-radius:50%"/><br/>
+    </td>
+    <td>
+      <strong>Parth Odhvani</strong><br/>
+      WordPress &amp; PHP Backend Developer · 2 years experience<br/>
+      Building practical WooCommerce tools that solve real store problems.<br/><br/>
+      <a href="https://github.com/parth0180"><img src="https://img.shields.io/badge/GitHub-parth0180-181717?style=flat-square&logo=github" alt="GitHub"/></a>
+      &nbsp;
+      <a href="https://profiles.wordpress.org/parthodhvani018/"><img src="https://img.shields.io/badge/WordPress.org-parthodhvani018-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress.org"/></a>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📜 License
 
 Released under the [GNU General Public License v2.0](https://www.gnu.org/licenses/gpl-2.0.html) or later.
