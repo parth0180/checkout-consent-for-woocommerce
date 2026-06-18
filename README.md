@@ -7,7 +7,7 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/parthodhvani/woocommerce-checkout-consent/main/assets/banner-1544x500.png" alt="Checkout Consent for WooCommerce — Banner" width="100%"/>
+<img src="main-logo-concent-1544x500.png" alt="Checkout Consent for WooCommerce — Banner" width="100%"/>
 
 <h1>✍️ Checkout Consent for WooCommerce</h1>
 
