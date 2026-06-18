@@ -1,28 +1,20 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white" alt="WooCommerce"/>
-<img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress"/>
-<img src="https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+"/>
-<img src="https://img.shields.io/badge/License-GPLv2-blue?style=for-the-badge" alt="GPLv2"/>
+<img src="assets/main-logo-concent.png" alt="Checkout Consent for WooCommerce" width="160"/>
 
-<br/><br/>
+<h1>Checkout Consent for WooCommerce</h1>
 
-<img src="assets/main-logo-concent.png" alt="Checkout Consent for WooCommerce — Banner" width="100%"/>
+<p><em>A seamless digital consent &amp; signature step, right inside your WooCommerce checkout.<br/>Every order. Every customer. Every time — with a PDF to prove it.</em></p>
 
-<h1>✍️ Checkout Consent for WooCommerce</h1>
-
-<p align="center">
-  <strong>A seamless digital consent & signature step, right inside your WooCommerce checkout.<br/>Every order. Every customer. Every time — with a PDF to prove it.</strong>
+<p>
+  <img src="https://img.shields.io/badge/stable-1.2.0-22c55e?style=flat-square" alt="Stable"/>
+  <img src="https://img.shields.io/badge/WordPress-6.0%2B-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress 6.0+"/>
+  <img src="https://img.shields.io/badge/WooCommerce-required-96588A?style=flat-square&logo=woocommerce&logoColor=white" alt="WooCommerce"/>
+  <img src="https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP 8.0+"/>
+  <img src="https://img.shields.io/badge/HPOS-Compatible-16a34a?style=flat-square" alt="HPOS Compatible"/>
+  <img src="https://img.shields.io/badge/External%20APIs-None-brightgreen?style=flat-square" alt="No External APIs"/>
+  <img src="https://img.shields.io/badge/License-GPLv2-3b82f6?style=flat-square" alt="GPLv2"/>
 </p>
-
-<br/>
-
-[![Stable Tag](https://img.shields.io/badge/stable-1.2.0-success?style=flat-square)](https://wordpress.org/plugins/woocommerce-checkout-consent/)
-[![Requires WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue?style=flat-square&logo=wordpress)](https://wordpress.org)
-[![Requires WooCommerce](https://img.shields.io/badge/WooCommerce-required-96588A?style=flat-square)](https://woocommerce.com)
-[![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=flat-square&logo=php)](https://php.net)
-[![HPOS Compatible](https://img.shields.io/badge/HPOS-Compatible-green?style=flat-square)](https://woocommerce.com/document/high-performance-order-storage/)
-[![No External APIs](https://img.shields.io/badge/External%20APIs-None-brightgreen?style=flat-square)](https://wordpress.org/plugins/woocommerce-checkout-consent/)
 
 </div>
 
@@ -42,24 +34,24 @@ No third-party services. No data leaving your server. Just a clean, professional
   <tr>
     <td align="center" width="50%">
       <img src="assets/screenshot-1.png" alt="Admin Dashboard — Customer Affairs" width="100%"/>
-      <br/>
+      <br/><br/>
       <sub><b>📊 Admin Dashboard</b> — See all customers, orders, signatures, and consent activity at a glance.</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshot-2.2.png" alt="Digital Signature Pad at Checkout" width="100%"/>
-      <br/>
+      <img src="assets/screenshot-2.png" alt="Digital Signature Pad at Checkout" width="100%"/>
+      <br/><br/>
       <sub><b>✍️ Signature Pad</b> — Customers sign with their mouse or finger before completing checkout.</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="assets/screenshot-3.png" alt="Consent Template Editor" width="100%"/>
-      <br/>
+      <br/><br/>
       <sub><b>📝 Consent Template</b> — Fully customizable agreement with dynamic placeholders.</sub>
     </td>
     <td align="center" width="50%">
       <img src="assets/screenshot-4.png" alt="Signed PDF Download on Order Received Page" width="100%"/>
-      <br/>
+      <br/><br/>
       <sub><b>📄 PDF Download</b> — Customers can download their signed consent from the order page or My Account.</sub>
     </td>
   </tr>
@@ -69,44 +61,17 @@ No third-party services. No data leaving your server. Just a clean, professional
 
 ## ✨ Features
 
-<table>
-  <tr>
-    <td>🖊️</td>
-    <td><strong>Touch & Mouse Signature Pad</strong> — Smooth drawing powered by the bundled Signature Pad library. Works on desktop and mobile.</td>
-  </tr>
-  <tr>
-    <td>📄</td>
-    <td><strong>Automatic PDF Generation</strong> — Signed consents are converted to PDF with the customer's signature image embedded — no external library required.</td>
-  </tr>
-  <tr>
-    <td>✏️</td>
-    <td><strong>Customizable Consent Template</strong> — Use <code>{customer_name}</code>, <code>{customer_email}</code>, and <code>{cart_total}</code> placeholders to personalize every agreement.</td>
-  </tr>
-  <tr>
-    <td>📥</td>
-    <td><strong>Download From Order & My Account</strong> — Customers can retrieve their signed PDF from the order-received page or from their account.</td>
-  </tr>
-  <tr>
-    <td>📊</td>
-    <td><strong>Admin Dashboard</strong> — A dedicated "Customer Affairs" screen shows total orders, signed consents, and per-customer history.</td>
-  </tr>
-  <tr>
-    <td>📤</td>
-    <td><strong>CSV / JSON Export & Import</strong> — Bulk-export consent records for compliance reporting or migrate data from another system.</td>
-  </tr>
-  <tr>
-    <td>🔍</td>
-    <td><strong>Full Audit Log</strong> — Every action — signed, PDF generated, downloaded — is logged with a timestamp.</td>
-  </tr>
-  <tr>
-    <td>⚡</td>
-    <td><strong>HPOS Compatible</strong> — Fully declared compatible with WooCommerce High-Performance Order Storage.</td>
-  </tr>
-  <tr>
-    <td>🔒</td>
-    <td><strong>Zero External Services</strong> — Signatures and PDFs stay entirely on your server. No SaaS. No subscription.</td>
-  </tr>
-</table>
+| | Feature | Description |
+|---|---|---|
+| 🖊️ | **Touch & Mouse Signature Pad** | Smooth drawing powered by the bundled Signature Pad library. Works on desktop and mobile. |
+| 📄 | **Automatic PDF Generation** | Signed consents are converted to PDF with the customer's signature image embedded — no external library required. |
+| ✏️ | **Customizable Consent Template** | Use `{customer_name}`, `{customer_email}`, and `{cart_total}` placeholders to personalize every agreement. |
+| 📥 | **Download From Order & My Account** | Customers can retrieve their signed PDF from the order-received page or from their account. |
+| 📊 | **Admin Dashboard** | A dedicated "Customer Affairs" screen shows total orders, signed consents, and per-customer history. |
+| 📤 | **CSV / JSON Export & Import** | Bulk-export consent records for compliance reporting or migrate data from another system. |
+| 🔍 | **Full Audit Log** | Every action — signed, PDF generated, downloaded — is logged with a timestamp. |
+| ⚡ | **HPOS Compatible** | Fully declared compatible with WooCommerce High-Performance Order Storage. |
+| 🔒 | **Zero External Services** | Signatures and PDFs stay entirely on your server. No SaaS. No subscription. |
 
 ---
 
@@ -117,14 +82,14 @@ No third-party services. No data leaving your server. Just a clean, professional
 2. Click **Install Now**, then **Activate**
 3. Make sure WooCommerce is active
 
-### Manual
+### Manual Upload
 1. Download the `.zip` and upload the `woocommerce-checkout-consent` folder to `/wp-content/plugins/`
 2. Activate through **Plugins → Installed Plugins**
 
-### Setup
+### After Activation
 ```
-Checkout Consent → Settings      ← configure consent behaviour
-Checkout Consent → Consent Template ← edit your agreement text
+Checkout Consent → Settings          ← configure consent behaviour
+Checkout Consent → Consent Template  ← edit your agreement text
 ```
 
 > **⚠️ Important:** The consent step requires the **classic WooCommerce checkout shortcode** `[woocommerce_checkout]`. If your Checkout page uses the block-based checkout, switch it back to the classic shortcode.
@@ -215,7 +180,7 @@ Yes. The admin dashboard includes CSV and JSON export. You can also import from 
 
 ## 📜 License
 
-Released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-2.0.html) or later.
+Released under the [GNU General Public License v2.0](https://www.gnu.org/licenses/gpl-2.0.html) or later.
 
 ---
 
@@ -223,6 +188,6 @@ Released under the [GNU General Public License v3.0](https://www.gnu.org/license
 
 Made with ❤️ for WooCommerce stores that take compliance seriously.
 
-**[WordPress.org Plugin Page](https://wordpress.org/plugins/woocommerce-checkout-consent/)** · **[Report a Bug](https://github.com/parthodhvani/woocommerce-checkout-consent/issues)** · **[Request a Feature](https://github.com/parthodhvani/woocommerce-checkout-consent/issues)**
+**[WordPress.org Plugin Page](https://wordpress.org/plugins/woocommerce-checkout-consent/)** &nbsp;·&nbsp; **[Report a Bug](https://github.com/parthodhvani/woocommerce-checkout-consent/issues)** &nbsp;·&nbsp; **[Request a Feature](https://github.com/parthodhvani/woocommerce-checkout-consent/issues)**
 
 </div>
