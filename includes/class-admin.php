@@ -486,7 +486,7 @@ class WCCA_Admin {
                     </table>
                     <p>
                         <button type="submit" name="wcca_import_submit" value="1" class="button button-primary">
-                            ⬆ Import CSV
+                             Import CSV
                         </button>
                     </p>
                 </form>
