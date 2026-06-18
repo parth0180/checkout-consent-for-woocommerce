@@ -2,29 +2,32 @@
 
 <img src="assets/main-logo-concent.png" alt="Checkout Consent for WooCommerce" width="160"/>
 
-<h1>Checkout Consent for WooCommerce</h1>
+# Checkout Consent for WooCommerce
 
-<p><em>A seamless digital consent &amp; signature step, right inside your WooCommerce checkout.<br/>Every order. Every customer. Every time — with a PDF to prove it.</em></p>
+**The easiest way to add a digital consent form & signature to WooCommerce checkout.**  
+*Require customers to review and sign a consent agreement before every order — and generate a signed PDF record automatically.*
 
 <p>
-  <img src="https://img.shields.io/badge/stable-1.2.0-22c55e?style=flat-square" alt="Stable"/>
+  <img src="https://img.shields.io/badge/stable-1.2.0-22c55e?style=flat-square" alt="Stable 1.2.0"/>
   <img src="https://img.shields.io/badge/WordPress-6.0%2B-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress 6.0+"/>
-  <img src="https://img.shields.io/badge/WooCommerce-required-96588A?style=flat-square&logo=woocommerce&logoColor=white" alt="WooCommerce"/>
+  <img src="https://img.shields.io/badge/WooCommerce-required-96588A?style=flat-square&logo=woocommerce&logoColor=white" alt="WooCommerce Required"/>
   <img src="https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP 8.0+"/>
   <img src="https://img.shields.io/badge/HPOS-Compatible-16a34a?style=flat-square" alt="HPOS Compatible"/>
   <img src="https://img.shields.io/badge/External%20APIs-None-brightgreen?style=flat-square" alt="No External APIs"/>
   <img src="https://img.shields.io/badge/License-GPLv2-3b82f6?style=flat-square" alt="GPLv2"/>
 </p>
 
+**[WordPress.org Plugin Page](https://wordpress.org/plugins/woocommerce-checkout-consent/)** &nbsp;·&nbsp; **[Report a Bug](https://github.com/parthodhvani/woocommerce-checkout-consent/issues)** &nbsp;·&nbsp; **[Request a Feature](https://github.com/parthodhvani/woocommerce-checkout-consent/issues)**
+
 </div>
 
 ---
 
-## 🎯 What It Does
+## What Is Checkout Consent for WooCommerce?
 
-Before a customer can place an order, they review your customizable consent agreement and sign it — using their **mouse or finger**. The signed consent is recorded against the order and a **PDF is generated automatically**, giving you a permanent, downloadable legal record for every transaction.
+**Checkout Consent for WooCommerce** is a free WordPress plugin that adds a **digital consent form and signature pad** directly to your WooCommerce checkout page. Before a customer can place an order, they must review your customizable consent agreement and sign it — using their mouse or finger. A **signed PDF is generated automatically** and stored on your server, giving you a permanent legal record for every transaction.
 
-No third-party services. No data leaving your server. Just a clean, professional consent flow that protects you and your customers.
+Whether you need a **WooCommerce consent form**, a **WooCommerce digital signature** step, a **WooCommerce GDPR consent** checkbox with proof, or a **signed agreement at checkout**, this plugin handles it — with zero external services, no SaaS fees, and no data leaving your server.
 
 ---
 
@@ -33,24 +36,24 @@ No third-party services. No data leaving your server. Just a clean, professional
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/screenshot-1.png" alt="Admin Dashboard — Customer Affairs" width="100%"/>
+      <img src="assets/screenshot-1.png" alt="WooCommerce Checkout Consent Admin Dashboard" width="100%"/>
       <br/><br/>
       <sub><b>📊 Admin Dashboard</b> — See all customers, orders, signatures, and consent activity at a glance.</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshot-2.png" alt="Digital Signature Pad at Checkout" width="100%"/>
+      <img src="assets/screenshot-2.png" alt="WooCommerce Digital Signature Pad at Checkout" width="100%"/>
       <br/><br/>
       <sub><b>✍️ Signature Pad</b> — Customers sign with their mouse or finger before completing checkout.</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/screenshot-3.png" alt="Consent Template Editor" width="100%"/>
+      <img src="assets/screenshot-3.png" alt="WooCommerce Consent Template Editor" width="100%"/>
       <br/><br/>
       <sub><b>📝 Consent Template</b> — Fully customizable agreement with dynamic placeholders.</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshot-4.png" alt="Signed PDF Download on Order Received Page" width="100%"/>
+      <img src="assets/screenshot-4.png" alt="Signed PDF Download on WooCommerce Order Page" width="100%"/>
       <br/><br/>
       <sub><b>📄 PDF Download</b> — Customers can download their signed consent from the order page or My Account.</sub>
     </td>
@@ -63,24 +66,24 @@ No third-party services. No data leaving your server. Just a clean, professional
 
 | | Feature | Description |
 |---|---|---|
-| 🖊️ | **Touch & Mouse Signature Pad** | Smooth drawing powered by the bundled Signature Pad library. Works on desktop and mobile. |
-| 📄 | **Automatic PDF Generation** | Signed consents are converted to PDF with the customer's signature image embedded — no external library required. |
-| ✏️ | **Customizable Consent Template** | Use `{customer_name}`, `{customer_email}`, and `{cart_total}` placeholders to personalize every agreement. |
-| 📥 | **Download From Order & My Account** | Customers can retrieve their signed PDF from the order-received page or from their account. |
-| 📊 | **Admin Dashboard** | A dedicated "Customer Affairs" screen shows total orders, signed consents, and per-customer history. |
+| 🖊️ | **Digital Signature Pad at Checkout** | Smooth mouse & touch drawing powered by the bundled Signature Pad library. Works on desktop and mobile. |
+| 📄 | **Automatic Signed PDF Generation** | Signed consent forms are converted to PDF with the customer's signature image embedded — no external library or service required. |
+| ✏️ | **Customizable WooCommerce Consent Template** | Use `{customer_name}`, `{customer_email}`, and `{cart_total}` placeholders to personalize every agreement. |
+| 📥 | **Download from Order Page & My Account** | Customers can retrieve their signed PDF from the order-received page or their WooCommerce account. |
+| 📊 | **Admin Consent Dashboard** | A dedicated "Customer Affairs" screen shows total orders, signed consents, and per-customer history. |
 | 📤 | **CSV / JSON Export & Import** | Bulk-export consent records for compliance reporting or migrate data from another system. |
-| 🔍 | **Full Audit Log** | Every action — signed, PDF generated, downloaded — is logged with a timestamp. |
+| 🔍 | **Full Audit Log** | Every action — consent signed, PDF generated, PDF downloaded — is timestamped and logged. |
 | ⚡ | **HPOS Compatible** | Fully declared compatible with WooCommerce High-Performance Order Storage. |
-| 🔒 | **Zero External Services** | Signatures and PDFs stay entirely on your server. No SaaS. No subscription. |
+| 🔒 | **Zero External Services** | All signatures, PDFs, and audit logs stay entirely on your server. No SaaS. No subscription. No phone-home. |
 
 ---
 
 ## 🚀 Installation
 
-### From WordPress Admin
+### From WordPress Admin (Recommended)
 1. Go to **Plugins → Add New** and search for **Checkout Consent for WooCommerce**
 2. Click **Install Now**, then **Activate**
-3. Make sure WooCommerce is active
+3. Ensure WooCommerce is installed and active
 
 ### Manual Upload
 1. Download the `.zip` and upload the `woocommerce-checkout-consent` folder to `/wp-content/plugins/`
@@ -88,15 +91,17 @@ No third-party services. No data leaving your server. Just a clean, professional
 
 ### After Activation
 ```
-Checkout Consent → Settings          ← configure consent behaviour
-Checkout Consent → Consent Template  ← edit your agreement text
+Checkout Consent → Settings          ← configure consent behaviour & options
+Checkout Consent → Consent Template  ← write and format your consent agreement
 ```
 
-> **⚠️ Important:** The consent step requires the **classic WooCommerce checkout shortcode** `[woocommerce_checkout]`. If your Checkout page uses the block-based checkout, switch it back to the classic shortcode.
+> **⚠️ Important:** The WooCommerce consent step requires the **classic checkout shortcode** `[woocommerce_checkout]` on your Checkout page. Block-based checkout support is planned for a future release.
 
 ---
 
 ## 🖊️ Consent Template Placeholders
+
+Personalize your WooCommerce consent form dynamically at checkout:
 
 | Placeholder | Replaced With |
 |---|---|
@@ -106,47 +111,65 @@ Checkout Consent → Consent Template  ← edit your agreement text
 
 ---
 
-## 🗂️ Where Are the PDFs Stored?
+## 🗂️ Where Are the Signed PDFs Stored?
 
-Signed PDFs are written to:
+Signed consent PDFs are written to:
 ```
 wp-content/uploads/wcca-consents/
 ```
-Filenames are unguessable (UUID-based). Downloads are additionally protected by a **nonce and a capability check**, so files cannot be hot-linked.
+Filenames are unguessable (UUID-based). Downloads are additionally protected by a **nonce and a capability check**, so files cannot be hot-linked or accessed without authorization.
 
 ---
 
-## ❓ FAQ
+## ❓ Frequently Asked Questions
 
 <details>
-<summary><strong>Does this work with the block-based checkout?</strong></summary>
+<summary><strong>Does this WooCommerce consent plugin work with the block-based checkout?</strong></summary>
 <br/>
-The consent step hooks into the classic WooCommerce checkout. Set your Checkout page to use the <code>[woocommerce_checkout]</code> shortcode. Block-based checkout support is planned for a future release.
+The consent and signature step hooks into the classic WooCommerce checkout. Set your Checkout page to use the <code>[woocommerce_checkout]</code> shortcode. Block-based checkout support is planned for a future release.
 </details>
 
 <details>
-<summary><strong>Is a customer's consent reused across orders?</strong></summary>
+<summary><strong>Is a customer's consent reused across multiple orders?</strong></summary>
 <br/>
-By default, once a customer signs within a browser session they are not asked again until checkout completes. Enable <strong>Settings → Ask for Consent Every Time</strong> to force the prompt on every checkout.
+By default, once a customer signs within a browser session they are not asked again until checkout completes. Enable <strong>Settings → Ask for Consent Every Time</strong> to force a fresh consent signature on every checkout.
 </details>
 
 <details>
-<summary><strong>Does the plugin connect to any external service?</strong></summary>
+<summary><strong>Does the plugin send data to any external service?</strong></summary>
 <br/>
 No. All data — signatures, PDFs, audit logs — is stored exclusively on your own WordPress installation. There are no external API calls and no subscription required.
 </details>
 
 <details>
-<summary><strong>Is this GDPR-friendly?</strong></summary>
+<summary><strong>Is this plugin GDPR-friendly?</strong></summary>
 <br/>
 The plugin records when, what, and by whom consent was given, giving you a documented audit trail. You are responsible for the content of your consent agreement; consult your legal adviser for compliance advice specific to your jurisdiction.
 </details>
 
 <details>
-<summary><strong>Can I export consent records?</strong></summary>
+<summary><strong>Can I export WooCommerce consent records for compliance?</strong></summary>
 <br/>
-Yes. The admin dashboard includes CSV and JSON export. You can also import from CSV to migrate records.
+Yes. The admin dashboard includes one-click CSV and JSON export of all consent records. You can also import from CSV to migrate records from another system.
 </details>
+
+<details>
+<summary><strong>Where are signed consent PDFs stored?</strong></summary>
+<br/>
+PDFs are saved to <code>wp-content/uploads/wcca-consents/</code> with UUID-based filenames. Downloads are protected by a nonce and a capability check to prevent unauthorized access.
+</details>
+
+---
+
+## 🔍 Who Is This Plugin For?
+
+This plugin is built for any WooCommerce store that needs customers to formally agree to terms before purchasing:
+
+- **Service businesses** requiring a signed service agreement before booking
+- **Health & wellness stores** needing an informed consent or liability waiver
+- **B2B stores** collecting signed terms & conditions at checkout
+- **Subscription businesses** capturing explicit consent for recurring billing
+- **Any store** wanting a GDPR-compliant, auditable consent record with proof of signature
 
 ---
 
@@ -187,7 +210,7 @@ Yes. The admin dashboard includes CSV and JSON export. You can also import from 
     </td>
     <td>
       <strong>Parth Odhvani</strong><br/>
-      WordPress &amp; PHP Backend Developer · 2 years experience<br/>
+      WordPress & PHP Backend Developer · 2 years experience<br/>
       Building practical WooCommerce tools that solve real store problems.<br/><br/>
       <a href="https://github.com/parth0180"><img src="https://img.shields.io/badge/GitHub-parth0180-181717?style=flat-square&logo=github" alt="GitHub"/></a>
       &nbsp;
