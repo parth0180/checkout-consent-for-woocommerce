@@ -7,7 +7,7 @@
 
 <br/><br/>
 
-<img src="main-logo-concent.png" alt="Checkout Consent for WooCommerce — Banner" width="100%"/>
+<img src="assets/main-logo-concent.png" alt="Checkout Consent for WooCommerce — Banner" width="100%"/>
 
 <h1>✍️ Checkout Consent for WooCommerce</h1>
 
