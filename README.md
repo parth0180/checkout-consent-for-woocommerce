@@ -46,7 +46,7 @@ No third-party services. No data leaving your server. Just a clean, professional
       <sub><b>📊 Admin Dashboard</b> — See all customers, orders, signatures, and consent activity at a glance.</sub>
     </td>
     <td align="center" width="50%">
-      <img src="https://www.awesomescreenshot.com/image/61275001?key=e7cdf5c8a43660f71cd4532b02b21c47" alt="Digital Signature Pad at Checkout" width="100%"/>
+      <img src="assets/screenshot-2.2.png" alt="Digital Signature Pad at Checkout" width="100%"/>
       <br/>
       <sub><b>✍️ Signature Pad</b> — Customers sign with their mouse or finger before completing checkout.</sub>
     </td>
