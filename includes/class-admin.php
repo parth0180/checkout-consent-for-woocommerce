@@ -439,17 +439,17 @@ class WCCA_Admin {
 
             <?php // ── Export ── ?>
             <div class="wcca-section-card" style="margin-bottom:24px;">
-                <h2 style="margin-top:0;">⬇️ Export Consent Records</h2>
+                <h2 style="margin-top:0;">⬆️ Export Consent Records</h2>
                 <p>Download all stored consent records as a file. The export includes every record except signature image data.</p>
 
                 <form method="post">
                     <?php wp_nonce_field( 'wcca_export_nonce', 'wcca_export_nonce' ); ?>
                     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:16px;">
                         <button type="submit" name="wcca_export_format" value="csv" class="button button-primary">
-                            ⬇ Export as CSV
+                             Export as CSV
                         </button>
                         <button type="submit" name="wcca_export_format" value="json" class="button button-secondary">
-                            ⬇ Export as JSON
+                             Export as JSON
                         </button>
                     </div>
                 </form>
@@ -457,7 +457,7 @@ class WCCA_Admin {
 
             <?php // ── Import ── ?>
             <div class="wcca-section-card">
-                <h2 style="margin-top:0;">⬆️ Import Consent Records</h2>
+                <h2 style="margin-top:0;"> ⬇️ Import Consent Records</h2>
                 <p>
                     Upload a CSV file exported by this plugin. Records that already exist (matched by <code>order_id</code>) will be skipped.
                 </p>
