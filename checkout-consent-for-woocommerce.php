@@ -70,12 +70,20 @@ function wcca_thankyou_pdf_download_button( int $order_id ): void {
         return;
     }
 
-    // Build download URL
-    $download_url = add_query_arg( [
-        'action' => 'wcca_download_pdf',
-        'sig_id' => $sig->id,
-        'nonce'  => wp_create_nonce( 'wcca_pdf_' . $sig->id ),
-    ], admin_url( 'admin-ajax.php' ) );
+    // Regenerate PDF if it was never created or file is missing
+    if ( empty( $sig->pdf_path ) || ! file_exists( $sig->pdf_path ) ) {
+        $sig->pdf_path = WCCA_PDF_Generator::generate( (int) $sig->id );
+        if ( $sig->pdf_path ) {
+            WCCA_Database::update_pdf_path( (int) $sig->id, $sig->pdf_path );
+        }
+    }
+
+    if ( empty( $sig->pdf_path ) ) {
+        return; // PDF unavailable — show nothing rather than a broken link
+    }
+
+    // Direct public URL — bypasses AJAX entirely, no browser security warnings
+    $pdf_url = WCCA_PDF_Generator::path_to_url( $sig->pdf_path );
 
     ?>
     <div class="wcca-thankyou-pdf-wrap" style="
@@ -97,11 +105,13 @@ function wcca_thankyou_pdf_download_button( int $order_id ): void {
             </strong>
             <p style="margin: 0; font-size: 13px; color: #4b5563;">
                 A legally binding PDF of your signed consent has been generated for Order #<?php echo esc_html( $order_id ); ?>.
-                Download and keep it for your records.
+                Click the button to view or save it for your records.
             </p>
         </div>
-        <a href="<?php echo esc_url( $download_url ); ?>"
+        <a href="<?php echo esc_url( $pdf_url ); ?>"
            class="wcca-btn-download"
+           target="_blank"
+           rel="noopener noreferrer"
            style="
                display: inline-flex;
                align-items: center;
@@ -119,7 +129,7 @@ function wcca_thankyou_pdf_download_button( int $order_id ): void {
            onmouseover="this.style.background='#2f4ecb'"
            onmouseout="this.style.background='#405fe4'"
         >
-            ⬇ Download Signed PDF
+            📄 View / Download Signed PDF
         </a>
     </div>
     <?php
