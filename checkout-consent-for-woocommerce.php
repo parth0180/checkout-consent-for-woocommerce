@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Checkout Consent for WooCommerce
+ * Plugin Name:       ConsentFlow – Checkout Consent for WooCommerce
  * Plugin URI:        https://github.com/parth0180/checkout-consent-for-woocommerce
  * Description:       Require customers to review and sign a digital consent form before checkout. Capture signatures, enforce consent acceptance, customize consent templates, and manage customer consent records from a dedicated dashboard.
  * Version:           1.2.0
