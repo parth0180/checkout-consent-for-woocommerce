@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/main-logo-concent.png" alt="Checkout Consent for WooCommerce" width="160"/>
+<img src="assets/digital-signature (3).png" alt="Checkout Consent for WooCommerce" width="160"/>
 
 # Checkout Consent for WooCommerce
 
